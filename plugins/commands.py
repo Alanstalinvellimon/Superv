@@ -28,14 +28,14 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**♦️ READ THIS INSTRUCTION ♦️\n ✪ഫയലുകൾ ലഭിക്കുന്നതിനായി  നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ join ചെയ്യണം ശേഷം refresh button അമർത്തുക\n ✪ You Need To Join Our Channel and Press Refresh Button to get the File.!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("⭕️Join Channel ⭕️", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄Try Again🔃", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -67,10 +67,10 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎸MAIN CHANNEL🎸', url='https://t.me/joinchat/axutdh3kmhExZjg1'),
+                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/PCLinks')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -85,29 +85,38 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**♦️ READ THIS INSTRUCTION ♦️\n ✪ഫയലുകൾ ലഭിക്കുന്നതിനായി  നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ join ചെയ്യണം ശേഷം refresh button അമർത്തുക\n ✪ You Need To Join Our Channel and Press Refresh Button to get the File.!**",           
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("⭕️Join Channel⭕️", url=invite_link.invite_link)
                     ]
                 ]
             )
         )
     else:
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await cmd.reply_photo(
+
+            photo="https://telegra.ph/file/c87edb2affe43f670af7b.jpg",
+
+            caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/VjimdbotFilter_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> 𝑨𝒄𝒉𝒖 𝑽𝒋♨</a>",
+
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("🍿OUR GROUP🍿", url="https://t.me/vlIeYa9keYUxZDY1")
+                        InlineKeyboardButton("➕ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ➕", url= "https://t.me/VjimdbotFilter_bot?startgroup=true")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
-                    ]
+                        InlineKeyboardButton("𝑺𝒆𝒂𝒓𝒄𝒉 𝑯𝒆𝒓𝒆🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("𝑨𝒏𝒚 𝑯𝒆𝒍𝒑 🛠️", url="https://t.me/Sanoob_Achu_18")
+                    ],
+                    [
+                        InlineKeyboardButton("𝑴𝒚 𝑫𝒆𝒗 🤗", url="https://t.me/Sanoob_Achu_18"),
+                        InlineKeyboardButton("𝑨𝒃𝒐𝒖𝒕 😎", callback_data="about")
+                    ],
+                    [
+                        InlineKeyboardButton("❕ 𝑯𝒐𝒘 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆 ❕", url="https://t.me/Sanoob_Achu_18")
+                    ]    
                 ]
             )
         )
@@ -193,10 +202,10 @@ async def delete(bot, message):
         await msg.edit('File not found in database')
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
-    buttons = [
-        [
-            InlineKeyboardButton('😇Update Channel😇', url='https://t.me/joinchat/ISZ9R5CdkgBlMzNl'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
-        ]
-        ]
-    await message.reply(text=f"<b>Developer : <a href='https://t.me/subinps_bot'>Alan</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/https://t.me/joinchat/ISZ9R5CdkgBlMzNl'>New ott relesed movies</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    buttons = [[
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋💗', url='https://t.me/joinchat/AK1vv2n8AZ41NmY1'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏⭕️', url='https://t.me/PCLinks')
+        ],[
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒🎻', url='https://t.me/ottmovies_updates')
+        ]]
+    await message.reply(text="<b><u>😁എന്തിനാ മോനെ ഇത്രേം സാഹസം കാണിച്ചത് 📃Source Code📃 ന് വേണ്ടിയാണോ🙄ന്തയാലും ഇവിടെ വരെ വന്നില്ലേ🤔 ചാനലിലും ഗ്രൂപ്പിലുമൊക്കെ ജോയിൻ😛 ചെയ്തിട്ട് പൊക്കോ🚶🤧</u></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
