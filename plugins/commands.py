@@ -99,7 +99,7 @@ async def start(bot, cmd):
 
             photo="https://telegra.ph/file/ddbd9b6322e5241394167.jpg",
 
-            caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/SUPER_V_18_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> 𝑨𝒄𝒉𝒖 𝑽𝒋♨</a>",
+            caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/SUPER_V_18_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> Alan Stalin♨</a>",
 
             reply_markup=InlineKeyboardMarkup(
                 [
