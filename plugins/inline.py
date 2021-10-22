@@ -91,10 +91,10 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
                     [
-                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/axutdh3kmhExZjg1')
                     ],
                     [
-                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/PCLinks')
+                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/vlIeYa9keYUxZDY1')
                     ]
                     ]
     return InlineKeyboardMarkup(buttons)
