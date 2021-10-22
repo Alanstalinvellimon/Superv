@@ -90,13 +90,13 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [
-        [
-            InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
-        ],
-        [
-            InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
-        ]
-        ]
+                    [
+                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+                    ],
+                    [
+                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/PCLinks')
+                    ]
+                    ]
     return InlineKeyboardMarkup(buttons)
 
 
