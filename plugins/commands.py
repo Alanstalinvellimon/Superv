@@ -67,10 +67,10 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/b2crtyaFjLRiMDQ1')
+                        InlineKeyboardButton('🎬 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 🎬', url='https://t.me/joinchat/ISZ9R5CdkgBlMzNl')
                     ],
                     [
-                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/PCLinks')
+                        InlineKeyboardButton('👥 𝑮𝒓𝒐𝒖𝒑 👥', url='https://t.me/vlIeYa9keYUxZDY1')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -97,25 +97,25 @@ async def start(bot, cmd):
     else:
         await cmd.reply_photo(
 
-            photo="https://telegra.ph/file/c87edb2affe43f670af7b.jpg",
+            photo="https://telegra.ph/file/ddbd9b6322e5241394167.jpg",
 
-            caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/VjimdbotFilter_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> 𝑨𝒄𝒉𝒖 𝑽𝒋♨</a>",
+            caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/SUPER_V_18_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> 𝑨𝒄𝒉𝒖 𝑽𝒋♨</a>",
 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ➕", url= "https://t.me/VjimdbotFilter_bot?startgroup=true")
+                        InlineKeyboardButton("➕ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ➕", url= "https://t.me/SUPER_V_18_bot?startgroup=true")
                     ],
                     [
                         InlineKeyboardButton("𝑺𝒆𝒂𝒓𝒄𝒉 𝑯𝒆𝒓𝒆🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("𝑨𝒏𝒚 𝑯𝒆𝒍𝒑 🛠️", url="https://t.me/Sanoob_Achu_18")
+                        InlineKeyboardButton("𝑨𝒏𝒚 𝑯𝒆𝒍𝒑 🛠️", url="https://t.me/MOVIES_SQUAD_ADMIN")
                     ],
                     [
-                        InlineKeyboardButton("𝑴𝒚 𝑫𝒆𝒗 🤗", url="https://t.me/Sanoob_Achu_18"),
+                        InlineKeyboardButton("𝑴𝒚 𝑫𝒆𝒗 🤗", url="https://t.me/MOVIES_SQUAD_ADMIN"),
                         InlineKeyboardButton("𝑨𝒃𝒐𝒖𝒕 😎", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("❕ 𝑯𝒐𝒘 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆 ❕", url="https://t.me/Sanoob_Achu_18")
+                        InlineKeyboardButton("❕ 𝑯𝒐𝒘 𝑻𝒐 𝑼𝒔𝒆 𝑴𝒆 ❕", url="https://t.me/MOVIES_SQUAD_ADMIN")
                     ]    
                 ]
             )
@@ -203,9 +203,9 @@ async def delete(bot, message):
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [[
-            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋💗', url='https://t.me/joinchat/AK1vv2n8AZ41NmY1'),
-            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏⭕️', url='https://t.me/PCLinks')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋💗', url='https://t.me/joinchat/ISZ9R5CdkgBlMzNl'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏⭕️', url='https://t.me/vlIeYa9keYUxZDY1')
         ],[
-            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒🎻', url='https://t.me/ottmovies_updates')
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒🎻', url='https://t.me/joinchat/axutdh3kmhExZjg1')
         ]]
     await message.reply(text="<b><u>😁എന്തിനാ മോനെ ഇത്രേം സാഹസം കാണിച്ചത് 📃Source Code📃 ന് വേണ്ടിയാണോ🙄ന്തയാലും ഇവിടെ വരെ വന്നില്ലേ🤔 ചാനലിലും ഗ്രൂപ്പിലുമൊക്കെ ജോയിൻ😛 ചെയ്തിട്ട് പൊക്കോ🚶🤧</u></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
