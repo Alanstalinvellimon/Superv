@@ -97,7 +97,7 @@ async def start(bot, cmd):
     else:
         await cmd.reply_photo(
 
-            photo="https://telegra.ph/file/ddbd9b6322e5241394167.jpg","https://telegra.ph/file/0f7326f3f2d1d28fff7b1.jpg", "https://telegra.ph/file/6ee19d593811b79b49d9d.jpg", "https://telegra.ph/file/93e70f0df30e3bbec6e2e.jpg", "https://telegra.ph/file/4a75472d94d1465cc59e0.jpg", 
+            photo= "https://telegra.ph/file/0f7326f3f2d1d28fff7b1.jpg", 
 
             caption=f"<b>Hai</b> {cmd.from_user.mention}  Guys!🙋,\n\n<b>I'm[☞ 𝙸𝙼𝙳𝙱 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🤖](https://t.me/SUPER_V_18_bot) or you can call me as Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group</b> ....\n\n<b>Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There</b>...🤓\n\n<b>©️𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝒃𝒚</b>   <a href=tg://user?id=1946514705> Alan Stalin♨</a>",
 
